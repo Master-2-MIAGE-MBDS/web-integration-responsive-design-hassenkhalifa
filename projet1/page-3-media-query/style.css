@@ -1,0 +1,379 @@
+@media screen and (min-width: 641px) {
+    .container {
+        display: grid;
+        grid-template-rows: 39% auto  auto 20%;
+        justify-content: stretch;
+        grid-template-areas:
+            "header"
+            "tabs"
+            "main"
+            "footer";
+    }
+
+    .header {
+        grid-area: header;
+        background-color: #2196f3;
+        color: #ffffff;
+        position: relative;
+        display: flex;
+        align-items: center;
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+
+    }
+
+    .main {
+        grid-area: main;
+        background-color: #f8f8f8;
+        text-align: center;
+    }
+
+    img {
+        width: 100px;
+        height: 100px
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: #2196f3;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        bottom: 0px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+
+    }
+
+    .tabs {
+        grid-area: tabs;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: stretch;
+        grid-template-areas:
+            "aads mads";
+    }
+
+    .aads {
+        grid-area: aads;
+        background-color: #2196f3;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .mads {
+        grid-area: mads;
+        background-color: #2196f3;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .aads:hover {
+
+        background-color: #219bf8;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .mads:hover {
+
+        background-color: #219bf8;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .addtiles {
+        grid-area: tiles;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: stretch;
+        grid-row-gap: 15px;
+        grid-template-areas:
+            "addone  addtwo";
+    }
+
+    .addone {
+        grid-area: addone;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    .addone:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+
+    .addtwo {
+        grid-area: addtwo;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    .addtwo:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    .time {
+        margin-top: 37px;
+        margin-left: 3px;
+        margin-bottom: 1px;
+    }
+
+    .price {
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: auto;
+    }
+
+
+    h1 {
+        padding-left: 10px;
+        justify-self: center
+    }
+
+    h2 {
+        padding-left: 10px;
+    }
+
+    h3 {
+
+        margin-right: 43px;
+        margin-top: 1px;
+        margin-left: 3px;
+        margin-bottom: 1px;
+        color: black;
+    }
+
+    .p {
+
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        display: grid;
+        grid-template-rows: 20% 10% 10% auto 20%;
+        justify-content: stretch;
+        grid-template-areas:
+            "header"
+            "tabs"
+            "tabs"
+            "main"
+            "footer";
+    }
+
+    .header {
+        grid-area: header;
+        background-color: #2196f3;
+        color: #ffffff;
+        position: relative;
+        display: flex;
+        align-items: center;
+        top: 0px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+
+    }
+
+    .main {
+        grid-area: main;
+        background-color: #f8f8f8;
+        text-align: center;
+    }
+
+    img {
+        width: 100px;
+        height: 100px
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: #2196f3;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        bottom: 0px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+
+    }
+
+    .tabs {
+        grid-area: tabs;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: stretch;
+        grid-template-areas:
+            "aads mads";
+    }
+
+    .aads {
+        grid-area: aads;
+        background-color: #2196f3;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .mads {
+        grid-area: mads;
+        background-color: #2196f3;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .aads:hover {
+
+        background-color: #219bf8;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .mads:hover {
+
+        background-color: #219bf8;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .addtiles {
+        grid-area: tabs;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: stretch;
+        grid-row-gap: 15px;
+        grid-template-areas:
+            "addone addone addone"
+            "addtwo addtwo addtwo";
+
+    }
+
+    .addone {
+        grid-area: addone;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    .addone:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    .time {
+        margin-top: 37px;
+        margin-left: 3px;
+        margin-bottom: 1px;
+    }
+
+    .price {
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: auto;
+    }
+
+
+    .addtwo {
+        grid-area: addtwo;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    .addtwo:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
+
+    }
+
+    h1 {
+        padding-left: 10px;
+        justify-self: center
+    }
+
+    h2 {
+        padding-left: 10px;
+    }
+
+    h3 {
+
+        margin-right: 43px;
+        margin-top: 1px;
+        margin-left: 3px;
+        margin-bottom: 1px;
+        color: black;
+    }
+
+    .p {
+
+        margin-top: 3px;
+        margin-left: 3px;
+    }
+
+}
